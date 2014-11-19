@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="angularRoutes">
+<head>
+	<title>Routing with Angular</title>
+	<link rel="stylesheet" type="text/css" href="app/styles/styles.css">
+</head>
+<body>
+	<h1>Sean is finally rocking JavaScript Routes!!!</h1>
+	<nav>
+		<a ng-href="#/">Main</a>
+		<a ng-href="#/other">Other</a>
+	</nav>
+
+	<div ng-view=''></div>
+
+	{{1+2}}
+
+<!-- SCRIPTS -->
+	<script type="text/javascript" src="app/js/angular.min.js"></script>
+	<script type="text/javascript" src="app/js/angular-route.min.js"></script>
+	<script type="text/javascript" src="app/js/app.js"></script>
+	<script type="text/javascript" src="app/js/controllers/MainCtrl.js"></script>
+	<script type="text/javascript" src="app/js/services/mainService.js"></script>
+
+</body>
+</html>
